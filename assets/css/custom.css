@@ -38,3 +38,14 @@
 .g-brd-primary {
     border-color: #2980B9 !important;
 }
+
+.u-heading-v6-1 .u-heading-v6__title::after, .u-heading-v6-1.text-center .u-heading-v6__title::before, .u-heading-v6-1.text-right .u-heading-v6__title::before, .u-heading-v6-2 .u-heading-v6__title::after, .u-heading-v6-2.text-center .u-heading-v6__title::before, .u-heading-v6-2.text-right .u-heading-v6__title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 5rem;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: inherit;
+}
