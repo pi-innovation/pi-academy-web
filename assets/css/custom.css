@@ -49,3 +49,12 @@
     border-top-style: solid;
     border-color: inherit;
 }
+
+a {
+    color: #2980B9;
+    outline: none;
+}
+
+a:focus, a:hover {
+    color: #2980CC;
+}
