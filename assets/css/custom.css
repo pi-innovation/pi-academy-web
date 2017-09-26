@@ -56,5 +56,20 @@ a {
 }
 
 a:focus, a:hover {
-    color: #2980CC;
+    color: #2980CC!important;
+}
+
+.u-btn-outline-primary {
+    color: #2980B9;
+    border-color: #2980B9;
+    background-color: transparent;
+}
+
+.u-btn-outline-primary:hover {
+    color: #fff;
+    background-color: #2980B9;
+}
+
+.u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
+    color: #2980B9 !important;
 }
